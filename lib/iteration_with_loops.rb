@@ -7,19 +7,13 @@ def find_min_in_nested_arrays(src)
   while row_index < src.count do
     element_index = 0 
       while element_index < src[row_index].count do
-<<<<<<< HEAD
+
        element_index += 1 
        end
    new_array.push(src[row_index].sort.shift)
    row_index += 1 
    end
    p new_array
-=======
-      new_array.push(src[row_index].sort)
-      p new_array
-      element_index += 1 
-  end
-  row_index += 1 
 end
->>>>>>> 8be41bc73c2d968a65fd6c10ea9fa4175c4ea370
+
 end
